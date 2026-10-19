@@ -1,9 +1,8 @@
-# ビルド系
+# Build output (bin/*.exe is the distributed build and is tracked)
 Debug/
 Release/
 x64/
 *.obj
-*.exe
 *.pdb
 *.ilk
 *.idb
@@ -17,13 +16,11 @@ x64/
 *.vcxproj.user
 *.suo
 
-# 一時ファイル
+# Temporary
+Log.txt
 *.log
 *.tmp
 
 # OS
 .DS_Store
 Thumbs.db
-/springGame2026/.vs
-springGame2026/.vs/springGame2026.slnx/v18/.suo
-springGame2026_2/Log.txt
